@@ -24,11 +24,30 @@ public class ThreeByFive {
 
 //change three other values to negative numbers
         nums[1][4] = -4;
+        nums[0][1] = -20;
+        nums[2][2] = -7;
+        nums[1][3] = -99;
 
 //make a statement to create a blank line here
+        System.out.println(" ");
 
 // output all of the numbers again,
 // not just the changed ones
+        System.out.println(nums[0][0]);
+        System.out.println(nums[0][1]);
+        System.out.println(nums[0][2]);
+        System.out.println(nums[0][3]);
+        System.out.println(nums[0][4]);
+        System.out.println(nums[1][0]);
+        System.out.println(nums[1][1]);
+        System.out.println(nums[1][2]);
+        System.out.println(nums[1][3]);
         System.out.println(nums[1][4]);
+        System.out.println(nums[2][0]);
+        System.out.println(nums[2][1]);
+        System.out.println(nums[2][2]);
+        System.out.println(nums[2][3]);
+        System.out.println(nums[2][4]);
+
     }
 }
