@@ -21,4 +21,13 @@ public class TwoDArrays {
         }
         return sum;
     }
+
+    public static boolean isSquare(int[][] arr){
+        if(arr.length == arr[0].length){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 }
